@@ -114,8 +114,7 @@ Connection connection = DriverManager.getConnection(DB_URL, USER, PASSWORD)
 ## Выполнение различных видов запросов к БД
 
 Для начала создадим класс Student, c полями id, name, surename и avgGrade и сущность students в базе данных. Заметим, что имя класса и его полей может не совпадать с названием таблицы и названиями ее атрибутов.
-
-[image:./podklyuchenie-k-istochnikam-danykh-2.png:::0,0,100,100:79::613px:164px]
+![podklyuchenie-k-istochnikam-danykh-2](https://github.com/user-attachments/assets/a5e8825d-4212-4d65-aae3-6851b473a61c)
 
 Ниже представлен код класса Student:
 
